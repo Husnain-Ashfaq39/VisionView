@@ -8,9 +8,8 @@ const FooterContent = () => {
     return (
         <div className="flex items-center justify-between flex-auto w-full">
             <span>
-                Copyright &copy; {`${new Date().getFullYear()}`}{' '}
-                <span className="font-semibold">{`${APP_NAME}`}</span> All
-                rights reserved.
+                Powered By <a href='https://www.syntax-ai.tech/' target="_blank" rel="noopener noreferrer">SYNTAX</a> &copy; {`${new Date().getFullYear()}`}{' '}
+                
             </span>
             <div className="">
                 <a
