@@ -28,14 +28,12 @@ const Side = ({ children, content, ...rest }) => {
                         </div>
                     </div>
                     <p className="text-lg text-white opacity-80">
-                        Elstar comes with a complete set of UI components
-                        crafted with Tailwind CSS, it fulfilled most of the use
-                        case to create modern and beautiful UI and application
+                        Text Written by Admin
                     </p>
                 </div>
                 <span className="text-white">
                     Copyright &copy; {`${new Date().getFullYear()}`}{' '}
-                    <span className="font-semibold">{`${APP_NAME}`}</span>{' '}
+                    <span className="font-semibold">Powered By <a href='https://www.syntax-ai.tech/'>SYNTAX</a></span>{' '}
                 </span>
             </div>
             <div className="col-span-2 flex flex-col justify-center items-center bg-white dark:bg-gray-800">
